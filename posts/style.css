@@ -1,0 +1,28 @@
+
+body {
+  font-family: monospace;
+  max-width: 50em;
+}
+
+.sample {
+  border: 10px solid black;
+  padding-left: 10em;
+  padding-top: 10em;
+  margin-left: 10em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul {
+  font-size: 1rem;
+}
