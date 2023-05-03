@@ -2,6 +2,8 @@
 body {
   font-family: monospace;
   max-width: 50em;
+  margin-top: 7em;
+  margin-left: 7em;
 }
 
 .sample {
