@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>An Interview with an A.I Expert</title>
+</head>
+<body>
+<h1>LaTeX in the Social Sciences</h1>
+<p>
+<a href="https://www.danielnewberry.xyz">..</a>
+<br><br>
+LaTeX is a software system for document preparation. When using it, we write in plain text as opposed to the instantly formatted text found in regular word processors like Microsoft Word and Apple Pages. LaTeX is generally commonplace in disciplines such as engineering, computer science and mathematics due to the superior equation and algorithm formatting than is found in other software systems. However, we are starting to see a gradual increase in the use of LaTeX in other areas, such as the social sciences. 
+<br><br>
+To start, here is an example of some LaTeX plain text that we use:
+<br><br>
+\documentclass[12pt]{article}<br>
+\usepackage{amsmath}<br>
+\title{\LaTeX}<br>
+\date{}<br>
+\begin{document}<br>
+  \maketitle<br>
+  \LaTeX{} is a document preparation system for the \TeX{}<br>
+  typesetting program. It offers programmable desktop publishing<br>
+  features and extensive facilities for automating most aspects of<br>
+  typesetting and desktop publishing, including numbering and<br>
+  cross-referencing, tables and figures, page layout, bibliographies,<br>
+  and much more. \LaTeX{} was originally written in 1984 by Leslie<br>
+  Lamport and has become the dominant method for using \TeX; few<br>
+  people write in plain \TeX{} anymore. The current version  is<br>
+  \LaTeXe.<br>
+<br>
+  % This is a comment; it will not be shown in the final output.<br>
+  % The following shows a little of the typesetting power of LaTeX:<br>
+  \begin{align}<br>
+    E &= mc^2<br>                          \\
+    m &= \frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}<br>
+  \end{align}<br>
+\end{document}<br>
+<br><br>
+And once we have compiled it, this is what the output looks like:
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/LaTeX_example.svg/1024px-LaTeX_example.svg.png?20170514193719" alt="The compiled LaTeX file from the above plain text." width="700">
+<br>
+(Thank you to Pierregillet on Wikimedia Commons for the example code and output image).
+<br><br>
+
+<h2>Benefits</h2>
+<br>
+<p>
+While it’s true that LaTeX has its origins in mathematics and computer science, and that a large part of the userbase are from technical fields, many of the advantages offered by LaTeX are just as relevant for those within the social sciences and other disciplines. 
+<br><br>
+<b>Separation of style and content</b>
+<br>
+LaTex allows the content and the style of the document to be two separate elements. This approach makes it easy to reuse designs and content without them being dependent on each other. For example, there are countless occasions where I have copied text from a Word file and had to spend a lot of time reformatting it to fit in with the style of the new document. 
+<br><br>
+By copying the input text across to the new document and compiling with a new theme applied, all reformatting issues are dealt with automatically. 
+<br><br>
+<b>Consistency</b>
+<br>
+LaTeX handles most textual and graphical elements consistently throughout the document. Word processors also have the capability of producing consistent documents, however many people don't know how to make best use of this. When collaborating, we often end up with documents with multiple fonts, sizes and styles. 
+<br><br>
+With LaTeX, this is kept out of our hands and kept consistent.
+<br><br>
+<b>Stability</b>
+<br>
+While there are features in word processors that make it possible to modularise documents, this is often neglected by many either out of difficulty to use or just not knowing the features are available. When these documents grow into larger theses and reports, they can often become unstable and the software can demand more resources from the computer to run. With multiple pieces of software open at once such as web browser, music streaming and reference manager (a classic combo of mine), we can begin to experience severe lag. 
+<br><br>
+Plain text files can be read and edited by practically any computer without issue. The only real intensive part comes with compiling which whilst can take a couple of minutes for larger documents, is often no where near as intensive as using word processing software in the long (and short) term. 
+<br><br></p>
+<h2>Issues (and how to get around them)</h2>
+<br><br>
+<p>
+<b>I'm not a programmer...</b>
+<br>
+Neither am I. At first LaTeX can seem daunting, however, I think this is often the result of focusing on the syntax too much and not on the workflow. The difference between learning the syntax needed for LaTeX and learning how to use point-and-click software is arbitrary. One may seem more natural only because we're more familiar with it. 
+<br><br>
+The real difference is between the workflows. For example LaTeX forces you to make decisions about structure, layout and design, but offers consistency. Word processors typically make no such demands, but it is up to you (and collaborators) to make sure that designs are consistent. 
+<br><br>
+<b>No one I know uses LaTeX...</b>
+<br>
+This is a valid concern and was one of the major reasons why it took me so long to start learning and using LaTeX. It seemed *easier* to just stick with a word processor like Microsoft Word. And then I began working with someone who uses Apple Pages, and again with someone who uses Libre Office. Before I knew it, we were sharing PDFs between each other as this was the only middle ground that we could all use. 
+<br><br>
+At this point, when I realised that sharing PDFs and commenting was the best way for us, I decided to start learning how to use LaTeX properly and share the compiled PDFs that way. Of course the issue is that, because (unfortunately) we have made Microsoft Word the industry standard, there are still people who can't or won't edit a document unless it is provided in a Word format. Whilst it is not a perfect solution, I would then use a service such as <a href="https://smallpdf.com/pdf/to/word">SmallPDF</a> to convert the PDF file to a Word document. Not perfect, but it's something.
+<br><br>
+<b>There are publishing issues...</b>
+<br>
+Whilst yes, there are many journals that would not be able to accept a LaTeX file in its plain text form, most journals accept a PDF for submission. In which case, it doesn't really matter how you create the PDF, as long you create one. Word, Apple Pages, Libre Office, LaTeX, as long as you export to a PDF format for submission this should be fine.
+<br><br>
+And I would argue against subnmitting in any format other than PDF as there are be inconsistencies and formatting issues without the PDF standardisation. 
+<br><br></p>
+<h2>Conclusion</h2>
+<p>
+I hope I've provided a solid argument for why LaTeX can be useful to know, even if it is not the main way that you write documents. A common alternative is to write the documents as you go in a standard word editor, before using LaTeX to create the final, designed version.
+<br><br>
+And of course, the more people from across different disciplines use LaTeX and the more common it becomes, the easier it will be to use in a collaborative way!
+<br><br>
+If you've got any questions about LaTeX, or anything else, you can <a href="mailto:daniel@danielnewberry.xyz">email me here</a>.
+</p>
+</body>
+</html>
