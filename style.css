@@ -6,7 +6,9 @@ body {
   margin-left: 2em;
   margin-right: 2em;
   line-height: 160%;
+  text-align: justify;
 }
+
 
 .sample {
   border: 10px solid black;
